@@ -1,0 +1,213 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+header {
+    text-align:center;
+}
+.logo {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 10px 5px 2px 5px;
+
+}
+body, html{
+    
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://i.postimg.cc/V6M5k3P4/Post-para-pizzaria-gourmet-Papel-de-parede.png");
+    background-size: cover;
+
+
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: black; 
+    width: 100%;
+
+}
+
+form {
+    padding: 0px;
+    margin:0 auto ;
+    text-align:center;
+    width: 100%;
+
+}
+.sectionTop{
+    width:100%;
+}
+
+
+
+input{
+
+    height: 50px;
+    width: 70%;
+    padding: 5px;
+    margin: 5px 5px 18px 5px;
+    font-size: 1.3em;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(102, 100, 100);
+
+
+
+}
+
+input:hover {
+    color: #817e7e;
+    background-color: rgb(233, 233, 233);
+
+}
+
+
+
+button {
+    height:50px;
+    width: 20em;
+    padding: 15px 5px 35px 5px;
+    margin-top:30px;
+    font-size: 1.3em;
+    border-radius: 4px;
+    border:1px solid #d4d2d2;
+    cursor: pointer;
+    color:#f4efea;
+    opacity:0.9;
+    background-color:#F8A44A;
+    margin-right: 10px;
+}
+
+#reset{
+     text-align: center;
+     opacity:0.9;
+
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button:hover{
+    background-color: grey;
+    color: aliceblue;
+    transition-duration: 0.2s;
+  
+
+
+
+}
+
+@media  screen and (max-width:713px){
+
+    input {
+        height: 2em;
+        width: 86%;
+        font-size: 1.3em;
+        margin: 10px 5px 10px 5px;
+
+
+
+    }
+    
+    button {
+        height: 2.2em;
+        width: 86%;
+        font-size: 1.3em;
+
+
+    }
+
+    #reset{
+        height: 2.5em;
+        width: 86%;
+        font-size: 1.3em;
+    }
+
+    footer {
+        bottom:0;
+    }
+
+    .logo{
+        width: 70%;
+
+    }
+}
+
+
+
+
+
+.resultado {
+    color: rgb(253, 253, 253);
+    font-size: 1.5em;
+    margin:0 auto;
+    padding: 2px 2px 17px 2px;
+    text-align: center;
+}
+
+
+
+footer{   
+    font-size: 1.0em;
+    flex-shrink: 0;
+    background-color:rgb(15, 15, 15);
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+    bottom: 0;
+    opacity:0.6;
+
+
+   
+  }
+
+  footer div p {
+    color:#d4d2d2;
+    margin:0 auto;
+    padding-top:15px;
+  }
+
+  footer a{
+    text-decoration: none;
+  
+  }
+
+  footer span{
+    color:white;
+  }
+
+
+
+@media screen and (max-width:243px) {
+    input, button, #reset{
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 5px;
+    }
+
+        .logo {
+            width:80%;
+        }
+    
+    }
+
+
+
+@media screen and (min-width:858px) and (max-width:1183px){
+
+    button, #reset{
+      width: 35%;
+      }
+  
+  }
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria da Gula</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+<!--HEADER-->
+  <header>
+    <img src="img/logo.png" alt="logotipo da pizzaria da gula" class="logo">
+  </header>
+<!--FIM HEADER-->
+
+<!--SECTION RESULTADO-->
+<section>
+  <div id="resultado" class="resultado"></div>
+</section>
+<!--FIM SECTION RESULTADO-->
+
+<!--SECTION FORM-->
+  <section class="sectionTop">
+    <form id="form">
+        <input  id ="valorConta"   placeholder="Valor total " required>    
+        <input id ="valorTaxa" placeholder="Valor da taxa" required>   
+        <input id ="quantidadePessoas" placeholder="Dividir por" required >
+      
+        <button  onclick="formEvent()" class="btn">Calcular</button>
+        <button id="reset"type="reset">Limpar</button>
+    </form>
+<!--FIM SECTION FORM-->
+
+
+<!--FOOTER-->
+  <footer class="footer">   
+        <div class="rodape">
+          <p class="nome"> Feito por <a href="https://dayanadovalleportfolio2023.netlify.app/ " target="_blank"> <span>Dayana do Valle</span></a> &copy;2023 </p>
+        </div><br>   
+  </footer>
+<!--FIM FOOTER-->
+
+<!--SCRIPT-->
+      <script src="script.js"></script>
+</body>
+</html>
